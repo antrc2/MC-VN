@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Loại trừ các thư mục như assets, css, js
+RewriteCond %{REQUEST_URI} !^/assets/
+RewriteCond %{REQUEST_URI} !^/index\.php$
+
+# Chuyển hướng các yêu cầu khác về index.php
+RewriteRule ^.*$ /index.php [L]

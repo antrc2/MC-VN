@@ -1,0 +1,17 @@
+{
+    "name": "admin/www",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "antrc2",
+            "email": "antrc2gamer@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
